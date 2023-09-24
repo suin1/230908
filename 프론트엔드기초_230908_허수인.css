@@ -1,0 +1,102 @@
+@charset "uff-8";
+
+body {
+    margin: 0;
+    width: 100%;
+}
+header {
+    background-color: #8f2d56;
+    height: 109px;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+}
+header p{
+    max-width: 369px;
+    min-width: 5px;
+    margin: 0;
+}
+header .left {
+    position: fixed;
+    left: 0;
+}
+header .right {
+    position: fixed;
+    right: 0;
+}
+header .logo {
+    background-color: #ffbc42;
+    width: 120px; height: 60px;
+    color: #8f2d56;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+header .title {
+    display: flex;
+    justify-content: flex-end;
+}
+header .menu {
+    font-family: 'Lobster Two', cursive;
+    display: flex;
+    margin-top: 42px;
+}
+header .menu li a {
+    background-color: #006ba6;
+    color: #fff;
+    width: 132px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+header .menu li a:hover {
+    background-color: #a0cfe9;
+}
+header .login {
+    background-color: #d81159;
+    position: fixed;
+    top: 0;
+}
+header button {
+    background-color: #d81159;
+    border: none;
+    height: 29px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+header .login button:hover {
+    background-color: #5c0b28;
+}
+header .login .box1::after {
+    content: "";
+    display: inline-block;
+    width: 1px; height: 12px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0; bottom: 0; right: 75px;
+    margin: auto;
+}
+header .login .box2::before {
+    content: "";
+    display: inline-block;
+    width: 1px; height: 12px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0; bottom: 0; left: 60px;
+    margin: auto;
+}
+main {
+    height: 300vh;
+}
+main h1 {
+    font-size: 52px;
+    font-weight: bold;
+}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Lobster';
+    src: url(LobsterTwo-Bold.woff2) format(woff2);
+    font-style: normal;
+    font-weight: 700;
+    font-size: swap;
+}
+@font-face {
+    font-family: 'Lobster';
+    src: url(LobsterTwo-Regular.woff2) format(woff2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: swap;
+}
