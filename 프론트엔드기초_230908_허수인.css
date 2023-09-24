@@ -30,6 +30,7 @@ header .logo {
     width: 120px; height: 60px;
     color: #8f2d56;
     font-size: 22px;
+    text-decoration: none;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -42,12 +43,14 @@ header .title {
 }
 header .menu {
     font-family: 'Lobster Two', cursive;
+    list-style: none;
     display: flex;
     margin-top: 42px;
 }
 header .menu li a {
     background-color: #006ba6;
     color: #fff;
+    text-decoration: none;
     width: 132px;
     height: 53px;
     display: flex;
@@ -90,7 +93,7 @@ header .login .box2::before {
     width: 1px; height: 12px;
     background-color: #ffffff;
     position: absolute;
-    top: 0; bottom: 0; left: 60px;
+    top: 0; bottom: 0; left: 75px;
     margin: auto;
 }
 main {
